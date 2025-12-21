@@ -1,4 +1,4 @@
-# Cloverleaf
+# Clover
 
 ## Overview
 A point-trick game in the Jass family where players play in two-person partnerships with the person sitting across from them, and attempt to make the most points by making melds and collecting cards in trick.
@@ -32,7 +32,7 @@ If no players accept the trump suit in the first round of bidding, the dealer pi
 
 If no players play after the second round of bidding, the hand is thrown in and the same dealer deals again.
 
-When a player accepts the bid and becomes the declarer, their partner across the table must pass them one card. The declarer adds the card to their hand and then passes one card back.
+When a player accepts the bid and becomes the declarer, their partner must pass them one card. The declarer adds the card to their hand and then passes one card back.
 
 ## Melding
 There are two ways to earn meld points in a round: shown in the hand before the first trick, and collected as combinations within tricks. **Both get added to your meld score at the end of the hand**. The melds values are as follows:
