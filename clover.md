@@ -77,14 +77,14 @@ If the declaring team does not take more points in tricks than the opposing team
 
 Finally, the last digit of each score is scratched off, and the first part of the number becomes the total to add for the team's game score. For example, a team who scores 127 points in tricks will score 12 points for their team.
 
-With bold scores symbolizing the declaring team:
+With asterisked scores symbolizing the declaring team:
 
     Team 1
       melds__|__7■__|_12■____Total: 12
-      tricks | *12■*| *7■*(set)
+      tricks | *12■ | *5■ (set)
     
     Team 2
-      melds__|_14■_|_4■_ Total: (14+2)+(4+7+12+7 from set)= 46
-      tricks | 2■  | 7■
+      melds__|_14■__|__4■__ Total: (14+2)+(4+7+12+7 from set)= 46
+      tricks |  2■  |  9■
 
 * Game is played either 8 or 12 rounds depending on the desired length of game
