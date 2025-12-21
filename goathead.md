@@ -4,7 +4,7 @@
 Goathead is a point-trick trick taking game in the Shafkopf family. Games in this family share common characteristics such as the point value of cards, the extended trump suit containing all Q's and J's, and a variable/hidden partner component.
 
 ## Deck and Deal
-  * The deck consists of four suits of eight cards with the following point values:
+The deck consists of four suits of eight cards with the following point values:
 
 | Card | Point Value |
 |:----:|:-----------:|
