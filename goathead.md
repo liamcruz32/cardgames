@@ -39,33 +39,33 @@ The following contracts are listed in order from lowest to highest:
     - The declarer calls for a suit contract by naming the suit they wish to supplement the trump suit. The holder of the Ace of that suit is the declarer's partner for that round. A player may not call for a suit in which they hold the Ace. If they hold all of the Aces, they must declare it and  play with the holder of the 7 of the called suit 
       * <e.g "I'll play Clubs">
       * <e.g "I'll play Diamonds with 7">
-    - *Suit Ranks*
+    - **Suit Ranks**
     In addition to the suit called, all Queens and Jacks are part of the trump suit. Below is an example of a Hearts contract
-      * *Trump Suit:* Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♥-10♥-K♥-Q♥-9♥-8♥-7♥
-      * *Fail Suits:* A-10-K-J-9-8-7 (♣/♠/♦)
+      * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♥-10♥-K♥-Q♥-9♥-8♥-7♥
+      * **Fail Suits:** A-10-K-J-9-8-7 (♣/♠/♦)
 
     * NOTE: In every contract, the order of suits remains the same at the top: Clubs, Spades, Hearts, Diamonds. A pneumonic to remember this is "Black above red; round above sharp"
 
   * **Nil**
     - The declarer of a Nil contract plays alone and aims to take zero tricks.
       * <e.g. "I'll play Nil">
-    - *Suit Ranks*
-      * No Trumps. Cards rank A-10-K-Q-J-9-8-7
+    - **Suit Ranks**
+      * **No Trumps**. Cards rank A-10-K-Q-J-9-8-7
 
   * **Court**
     - There are three possible court contracts: Kings, Queens, Jacks. The declarer of a court game plays alone against the other three players. For the purposes of bidding, Jacks outrank Queens, Queens outrank Kings
       * <e.g. "I'll play Queens">
-    - Suit Ranks
+    - **Suit Ranks**
       - Trump suit consists entirely of the card named in bidding.
-        * *Trump suit in a Queens contract:* Q♣-Q♠-Q♥-Q♦
-        * *Fail Suits:* A-10-K-J-9-8-7 (♣/♠/♥/♦)
+        * **Trump suit in a Queens contract:** Q♣-Q♠-Q♥-Q♦
+        * **Fail Suits:** A-10-K-J-9-8-7 (♣/♠/♥/♦)
 
   * **Alone**
     - Playing an "Alone" contract is the same as playing a Suit contract but the called suit Ace does not play as the declarer partner. The declarer is not required to bid a suit in which they do not hold an Ace like in the standard Suit contract.
       * <e.g. "I'll play alone with Spades">
-    - Suit Ranks:
-      * *Trump Suit:* Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♠-10♠-K♠-Q♠-9♠-8♠-7♠
-      * *Fail Suit:* A-10-K-9-8-7 (♣/♥/♦)
+    - **Suit Ranks**:
+      * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♠-10♠-K♠-Q♠-9♠-8♠-7♠
+      * **Fail Suit:** A-10-K-9-8-7 (♣/♥/♦)
 
   * **Slams**
     - A non Nil contract (Suit, Court, or Alone) may be bid as a slam, where the declarer (or or declaring team) aims to take every trick. A Suit Slam outranks Alone, Court Slam outranks Suit Slam, and an Alone Slam outranks every other contract.
@@ -73,8 +73,8 @@ The following contracts are listed in order from lowest to highest:
 
   * **Junkyard**
     - If the bidding goes around the table without any contracts being bid, the round is Junk and is played with Queens and Jacks as Trump and each player partnered with the person sitting across from them. Whichever team takes the least amount of points in tricks wins the game
-    * *Trump Suit:* Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦
-    * *Fail Suits:* A-10-K-9-8-7 (♣/♠/♥/♦)
+    * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦
+    * **Fail Suits:** A-10-K-9-8-7 (♣/♠/♥/♦)
 
 ## Scoring
 At the end of the round, points collected in tricks are added up for each team. The declaring team scores a bonus if they take 90 points or more. The opposing team, therefore, wants to take at least 31 points to prevent this. This is known as "making brush".
