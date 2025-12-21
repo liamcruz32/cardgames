@@ -42,6 +42,8 @@ The following contracts are listed in order from lowest to highest:
     - *Suit Ranks*
     In addition to the suit called, all Queens and Jacks are part of the trump suit. Below is an example of a Hearts contract
       * *Trump Suit:* Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♥-10♥-K♥-Q♥-9♥-8♥-7♥
+      * *Fail Suits:* A-10-K-J-9-8-7 (♣/♠/♦)
+
     * NOTE: In every contract, the order of suits remains the same at the top: Clubs, Spades, Hearts, Diamonds. A pneumonic to remember this is "Black above red; round above sharp"
 
   * **Nil**
@@ -55,8 +57,8 @@ The following contracts are listed in order from lowest to highest:
       * <e.g. "I'll play Queens">
     - Suit Ranks
       - Trump suit consists entirely of the card named in bidding.
-        * Trump suit in a Queens contract: Q♣-Q♠-Q♥-Q♦
-        * Fail Suits: A-10-K-J-9-8-7 (♣/♠/♥/♦)
+        * *Trump suit in a Queens contract:* Q♣-Q♠-Q♥-Q♦
+        * *Fail Suits:* A-10-K-J-9-8-7 (♣/♠/♥/♦)
 
   * **Alone**
     - Playing an "Alone" contract is the same as playing a Suit contract but the called suit Ace does not play as the declarer partner. The declarer is not required to bid a suit in which they do not hold an Ace like in the standard Suit contract.
