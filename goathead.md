@@ -3,8 +3,10 @@
 ## Overview
 Goathead is a point-trick trick taking game in the Shafkopf family. Games in this family share common characteristics such as the point value of cards, the extended trump suit containing all Q's and J's, and a variable/hidden partner component.
 
-## Deck and Deal
-The deck consists of four suits of eight cards with the following point values:
+Players are dealt 8 cards to each player starting with the player to the dealer's left.
+
+## Points
+There are two kinds of points: trick points and game points. Each trick is worth trick points according to the cards it contains. The values of the cards (in all suits) are as follows
 
 | Card | Point Value |
 |:----:|:-----------:|
@@ -19,16 +21,20 @@ The deck consists of four suits of eight cards with the following point values:
 
 Added up, this is 120 pts available in the deck (30 points per suit)
 
-Deal 8 cards to each player starting with the player to the dealer's left. Bidding will start with this player.
 
 ## Bid
-The bid is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 8 tricks with or without a partner. After a player proposes a contract, the following players must bid a higher contract or pass. If a player has fewer game points than the current bid leader, they may steal the bid for themselves by saying "I steal". You may not steal if your game points are equal to the current bid winner. The player who bids the highest contract becomes the declarer.
+The bidding starts with the player to the dealer's left, and is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 8 tricks with or without a partner. 
+
+After a player proposes a contract, the following players must bid a higher contract or pass. If a player has fewer game points than the current bid leader, they may steal the bid for themselves by saying "I steal". You may not steal if your game points are equal to the current bid winner. The player who bids the highest contract becomes the declarer.
 
 ## Play
-In each contract, the player to the left of the dealer leads to the first trick, regardless of who made the contract. Players in turn must follow suit if able, otherwise they may play any card. There is no obligation to trump, or otherwise lead the trick. The player who played the highest card in the suit led, or the highest trump if any were played, wins the trick and takes it into their scoring pile. They then lead the next trick.
+In each contract, the player to the left of the dealer leads to the first trick, regardless of who made the contract. Players in turn must follow suit if able, otherwise they may play any card. There is no obligation to trump, or to lead the trick. 
+
+The player who played the highest card in the suit led, or the highest trump if any were played, wins the trick and takes it into their scoring pile. They then lead the next trick.
 
 ## Contracts
 The following contracts are listed in order from lowest to highest:
+
   * **Suit**
     - The declarer calls for a suit contract by naming the suit they wish to supplement the trump suit. The holder of the Ace of that suit is the declarer's partner for that round. A player may not call for a suit in which they hold the Ace. If they hold all of the Aces, they must declare it and  play with the holder of the 7 of the called suit 
       * <e.g "I'll play Clubs">
@@ -66,20 +72,20 @@ The following contracts are listed in order from lowest to highest:
   * **Junkyard**
     - If the bidding goes around the table without any contracts being bid, the round is Junk and is played with Queens and Jacks as Trump and each player partnered with the person sitting across from them. Whichever team takes the least amount of points in tricks wins the game
     * *Trump Suit:* Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦
-  * *Fail Suits:* A-10-K-9-8-7 (♣/♠/♥/♦)
+    * *Fail Suits:* A-10-K-9-8-7 (♣/♠/♥/♦)
 
 ## Scoring
-During the play of the round, the players opposing the declarer aims to take at least 31 points in tricks (alternatively, the declaring team aims to make at least 90 points to gain a bonus). This is known as "making brush". Failure to make brush results in the declaring team scoring extra points.
+At the end of the round, points collected in tricks are added up for each team. The declaring team scores a bonus if they take 90 points or more. The opposing team, therefore, wants to take at least 31 points to prevent this. This is known as "making brush".
 
-For Solo contracts, the three players opposing the declarer collectively add their trick points. The following table outlines the game points awarded for each contract (note that slam bonuses are not applied unless the contract was bid as a slam)
-______________________________________________________________________
-|   Contract    | Declarer Score | No Brush | Slam | Oppoonent Score |
-|:-------------:|:--------------:|:--------:|:----:|:---------------:|
-| Suit          |       4        |    6     |  12  |        0        |
-| Nil           |       6        |    -     |  -   |       -2        |
-| Court         |       6        |    9     |  18  |        0        |
-| Alone         |       8        |   12     |  24  |        0        |
-| Junk          |       4        |    -     |  -   |       -4        |
-______________________________________________________________________
+For Solo contracts, the three players opposing the declarer collectively add their trick points. The following table outlines the game points awarded for each contract (note that slam bonuses are not applied unless the contract was actually bid as a slam)
+_____________________________________________________________________
+|   Contract    | Declarer Score | No Brush | Slam | Opponent Score |
+|:-------------:|:--------------:|:--------:|:----:|:--------------:|
+| Suit          |       4        |    6     |  12  |       0        |
+| Nil           |       6        |    -     |  -   |      -2        |
+| Court         |       6        |    9     |  18  |       0        |
+| Alone         |       8        |   12     |  24  |       0        |
+| Junk          |       4        |    -     |  -   |      -4        |
+_____________________________________________________________________
 
 Games are played to 30 points.
