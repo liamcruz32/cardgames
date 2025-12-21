@@ -6,8 +6,18 @@ A point-trick game in the Jass family where players play in two-person partnersh
 ## The Deck and Deal
 Jass games are part of the Ace-Ten family of trick taking games, and share the card scoring scheme as those. They are unique in that the Trump suit changes ranks and points--with the Jack and Nine becoming the two highest cards.
 
-  * *Trump Suit:* J(20pts) - 9(14pts) - A(11pts) - 10(10pts) - K(4pts) - Q(3pts) - 8(0pts) - 7(0pts)
-  * *Fail Suits:* A(11pts) - 10(10pts) - K(4pts) - Q(3pts) - J(2pts) - 9 (0pts) - 8(0pts)* - 7(0pts)
+| Trump Rank | Point value | Off Suit Rank |
+|:----------:|:-----------:|:-------------:|
+|     J      |     11      |               |
+|     9      |     10      |               |
+|     A      |      4      |       A       |
+|    10      |      4      |      10       |
+|     K      |      4      |       K       |
+|     Q      |      3      |       Q       |
+|     -      |      2      |       J       |
+|     -      |      0      |       9       |
+|     8      |      0      |       8       |
+|     7      |      0      |       7       |
 
 There are 152 total points in the deck. The last trick is worth -2 points, bringing the total points in a hand to 150.
 

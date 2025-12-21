@@ -5,9 +5,21 @@ Goathead is a point-trick trick taking game in the Shafkopf family. Games in thi
 
 ## Deck and Deal
   * The deck consists of four suits of eight cards with the following point values:
-    - A (11pts), 10 (10pts), K (4pts), Q (3pts), J (2pts), 9 (0pts), 8 (0pts), 7(0pts)
-    - Added up, this is 120 pts available in the deck (30 points per suit)
-  * Deal 8 cards to each player starting with the player to the dealer's left. Bidding will start with this player.
+
+| Card | Point Value |
+|:----:|:-----------:|
+|  A   |     11      |
+|  10  |     10      |
+|  K   |     4       |
+|  Q   |     3       |
+|  J   |     2       |
+|  9   |     0       |
+|  8   |     0       |
+|  7   |     0       |
+
+Added up, this is 120 pts available in the deck (30 points per suit)
+
+Deal 8 cards to each player starting with the player to the dealer's left. Bidding will start with this player.
 
 ## Bid
 The bid is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 8 tricks with or without a partner. After a player proposes a contract, the following players must bid a higher contract or pass. If a player has fewer game points than the current bid leader, they may steal the bid for themselves by saying "I steal". You may not steal if your game points are equal to the current bid winner. The player who bids the highest contract becomes the declarer.
