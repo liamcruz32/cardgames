@@ -1,7 +1,7 @@
 # Cloverleaf
 
 ## Overview
-A point-trick game in the Jass family where players play in two-person partnerships and aim to make the most points via collecting cards in tricks, and making melds.
+A point-trick game in the Jass family where players play in two-person partnerships with the person sitting across from them, and attempt to make the most points by making melds and collecting cards in trick.
 
 ## The Deck and Deal
 Jass games are part of the Ace-Ten family of trick taking games, and share the card scoring scheme as those. They are unique in that the Trump suit changes ranks and points--with the Jack and Nine becoming the two highest cards.
