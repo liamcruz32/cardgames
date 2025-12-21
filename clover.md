@@ -73,7 +73,7 @@ Whoever scores the most meld points in a hand gets to keep their meld score, the
 
   - NOTE: If during the first trick, you do not declare your melds, you do not get to score them here, even if you would have made more points in melds than the opponent. You also cannot score them if you 'set' the declaring team.
 
-If the declaring team does not take more points in tricks than the opposing team, they have been 'set' and all points they earn in tricks and melds go to the opposing team.
+If the declaring team does not take more points in tricks than the opposing team, they have been 'set' and all points they would earn in tricks and melds go to the opposing team.
 
 Finally, the last digit of each score is scratched off, and the first part of the number becomes the total to add for the team's game score. For example, a team who scores 127 points in tricks will score 12 points for their team.
 
