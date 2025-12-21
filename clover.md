@@ -80,11 +80,11 @@ Finally, the last digit of each score is scratched off, and the first part of th
 With bold scores symbolizing the declaring team:
 
 Team 1
-  * melds  |_~~7■~~___12■______________ Total: 12
-  * tricks | **12■**  **7■**(set)
+  * melds  |_~~7■~~_|_12■_ Total: 12
+  * tricks | **12■**|__**7■**(set)
     
 Team 2
-  * melds  |_14■___4■_______________ Total: (14+2)+(4+7+12+7 from set)= 46
+  * melds  |_14■_|_4■_ Total: (14+2)+(4+7+12+7 from set)= 46
   * tricks | 2■    7■
 
 * Game is played either 8 or 12 rounds depending on the desired length of game
