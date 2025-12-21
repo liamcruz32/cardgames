@@ -8,14 +8,14 @@ Jass games are part of the Ace-Ten family of trick taking games, and share the c
 
 | Trump Rank | Point value | Off Suit Rank |
 |:----------:|:-----------:|:-------------:|
-|     J      |     11      |               |
-|     9      |     10      |               |
-|     A      |      4      |       A       |
-|    10      |      4      |      10       |
+|     J      |     20      |               |
+|     9      |     14      |               |
+|     A      |     11      |       A       |
+|    10      |     10      |      10       |
 |     K      |      4      |       K       |
 |     Q      |      3      |       Q       |
-|     -      |      2      |       J       |
-|     -      |      0      |       9       |
+|            |      2      |       J       |
+|            |      0      |       9       |
 |     8      |      0      |       8       |
 |     7      |      0      |       7       |
 
