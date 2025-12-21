@@ -8,8 +8,8 @@ Cards rank from A high to 7 low normally. The trump suit instead has the Jack as
 
 Example for a round with clubs as trump:
   * **♣ (trump):** J♣-J♠-A♣-K♣-Q♣-10♣-9♣-8♣-7♣
-  * **♥/♦:** A-K-Q-J-10-9-8-7 (♥/♦)
-  * **♠:** A-K-Q-10-9-8-7 (♠)
+  * **♥/♦:** A-K-Q-J-10-9-8-7
+  * **♠:** A-K-Q-10-9-8-7
 
 ## The Bid
 Bidding begins with the player to the dealer's left. A player bids to win at least a number of tricks with a trump suit of their choice. A suit must be named with the bid, but there is no ranking among suits except that bids of No Trump are out ranked by a suited bid. (A bid of 5NT can be beat by a bid of 5♠, but to beat 5♠, a bid must be at least 6)
