@@ -76,7 +76,7 @@ If the declarer does not make their contract, they pay out the base points to bo
 
   * *Example 1*: Declarer of a suit contract scores 66 points. Each defending player loses 1 point, the declarer gains 2
   * *Example 2*: Declarer of a court contract scores 29 points. Each defending player gains 3 points, the declarer loses 6
-  * *Example 3*: Declarer of a suit contract takes all tricks. Each defending player loses 3 points, the declarer gains 6
+  * *Example 3*: Declarer of a suit contract takes all tricks and did not pick up the kitty. Each defending player loses 4 points, the declarer gains 8
   * *Leasters*: In leasters, the player who scores the most points pays the player who scores the least. The middle player gains and loses nothing.
 
 Games are played over the course of 15 rounds, or any other agreed upon number.
