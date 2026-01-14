@@ -21,9 +21,11 @@ There are two kinds of points: trick points and game points. Each trick is worth
 Added up, this is 120 pts available in the deck (30 points per suit). The goal of any round is to win at least 61 points in tricks--either alone or cumulatively with a partner.
 
 ## Bid
-The bidding starts with the player to the dealer's left, and is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 6 tricks with or without a partner. 
+The bidding starts with the player to the dealer's left, and is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 6 tricks. 
 
 After a player proposes a contract, the following players must bid a higher contract or pass. If a player has fewer game points than the current bid leader, they may steal the bid for themselves by saying "I steal". You may not steal if your game points are equal to the current bid winner. The player who bids the highest contract becomes the declarer.
+
+After the contract is declared, the declarer may choose to add the kitty to their hand. If they do, they then choose two cards to add back to the kitty. The points in the kitty count towards the declarer's trick-point total at the end of the round. After exchanging cards, the declarer may stick to their bid contract, or choose another higher ranking contract. 
 
 ## Play
 In each contract, the player to the left of the dealer leads to the first trick, regardless of who made the contract. Players in turn must follow suit if able, otherwise they may play any card. There is no obligation to trump, or to lead the trick. 
@@ -31,10 +33,6 @@ In each contract, the player to the left of the dealer leads to the first trick,
 The player who played the highest card in the suit led, or the highest trump if any were played, wins the trick and takes it into their scoring pile. They then lead the next trick.
 
 ## Contracts
-Starting with the player to the left of the dealer, each player announces a contract they are willing to play. Following players must bid a higher contract or pass. After the contract is declared, the declarer may choose to add the kitty to their hand. If they do, they then choose two cards to add back to the kitty. The points in the kitty count towards the declarer's trick-point total at the end of the round.
-
-The declarer may stick to their bid contract, or choose another higher ranking contract. 
-
   * **Suit**
     - The trump suit always contains the four Jacks as the highest trumps in the following order: J♣-J♠-J♥-J♦
     - The declarer calls for a suit contract by naming the suit they wish to supplement the trump suit
@@ -89,6 +87,6 @@ Deal 4 cards to each player and 4 to the kitty. Bidding follows the same convent
 
 Court and Nil contracts are played alone vs the other 3 players.
 
-The declarer picks up the kitty they do not add it to their hand, but instead may exchange one card in their hand with the kitty, though not required. They then pass the kity to the left, and each other player in turn may exchange one card. After the other three players exchange, the dealer may choose to exchange one more card with the kitty, and play begins.
+The declarer picks up the kitty, but does not add it to their hand. Instead they may exchange one card in their hand with the kitty. They then pass the kity to the left, and each other player in turn may exchange one card. After the other three players exchange, the dealer may choose to exchange one more card with the kitty, and play begins.
 
 
