@@ -1,9 +1,11 @@
 # Goathead
 
 ## Overview
-Goathead is a point-trick trick taking game in the Shafkopf family. Games in this family share common characteristics such as the point value of cards, the extended trump suit containing all Q's and J's, and a variable/hidden partner component.
+Goathead is a 3 to 4 player point-trick trick taking game in the Shafkopf family designed for a 20 card Schnapsen deck. Games in this family share common characteristics such as the point value of cards, the extended trump suit containing all Q's and/or J's, and a variable/hidden partner component.
 
-Players are dealt 8 cards to each player starting with the player to the dealer's left.
+Below, the standard 3-player game will be described. 4-player rules will be described at the bottom.
+
+6 cards are dealt to each player with 2 in the kitty
 
 ## Points
 There are two kinds of points: trick points and game points. Each trick is worth trick points according to the cards it contains. The values of the cards (in all suits) are as follows
@@ -15,15 +17,11 @@ There are two kinds of points: trick points and game points. Each trick is worth
 |  K   |     4       |
 |  Q   |     3       |
 |  J   |     2       |
-|  9   |     0       |
-|  8   |     0       |
-|  7   |     0       |
 
-Added up, this is 120 pts available in the deck (30 points per suit)
-
+Added up, this is 120 pts available in the deck (30 points per suit). The goal of any round is to win at least 61 points in tricks--either alone or cumulatively with a partner.
 
 ## Bid
-The bidding starts with the player to the dealer's left, and is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 8 tricks with or without a partner. 
+The bidding starts with the player to the dealer's left, and is a selection between various contracts in which a player claims they can take the majority of trick points over the course of 6 tricks with or without a partner. 
 
 After a player proposes a contract, the following players must bid a higher contract or pass. If a player has fewer game points than the current bid leader, they may steal the bid for themselves by saying "I steal". You may not steal if your game points are equal to the current bid winner. The player who bids the highest contract becomes the declarer.
 
@@ -33,61 +31,64 @@ In each contract, the player to the left of the dealer leads to the first trick,
 The player who played the highest card in the suit led, or the highest trump if any were played, wins the trick and takes it into their scoring pile. They then lead the next trick.
 
 ## Contracts
-The following contracts are listed in order from lowest to highest:
+Starting with the player to the left of the dealer, each player announces a contract they are willing to play. Following players must bid a higher contract or pass. After the contract is declared, the declarer may choose to add the kitty to their hand. If they do, they then choose two cards to add back to the kitty. The points in the kitty count towards the declarer's trick-point total at the end of the round.
+
+The declarer may stick to their bid contract, or choose another higher ranking contract. 
 
   * **Suit**
-    - The declarer calls for a suit contract by naming the suit they wish to supplement the trump suit. The holder of the Ace of that suit is the declarer's partner for that round. A player may not call for a suit in which they hold the Ace. If they hold all of the Aces, they must declare it and  play with the holder of the 7 of the called suit 
-      * <e.g "I'll play Clubs">
-      * <e.g "I'll play Diamonds with 7">
+    - The trump suit always contains the four Jacks as the highest trumps in the following order: J♣-J♠-J♥-J♦
+    - The declarer calls for a suit contract by naming the suit they wish to supplement the trump suit
+    - Ranking of the suit contracts follow the same order. Clubs outranking Spades, Spades outranking Hearts, then Diamonds as the lowest contract. 
+      * <e.g "I'll play Hearts">
     - **Suit Ranks**
-    In addition to the suit called, all Queens and Jacks are part of the trump suit. Below is an example of a Hearts contract
-      * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♥-10♥-K♥-Q♥-9♥-8♥-7♥
-      * **Fail Suits:** A-10-K-J-9-8-7 (♣/♠/♦)
-
-    * NOTE: In every contract, the order of suits remains the same at the top: Clubs, Spades, Hearts, Diamonds. A pneumonic to remember this is "Black above red; round above sharp"
-
+      Below is an example of a Hearts contract
+      * **Trump Suit:** J♣-J♠-J♥-J♦-A♥-10♥-K♥-Q♥
+      * **Fail Suits:** A-10-K-Q (♣/♠/♦)
+   
   * **Nil**
-    - The declarer of a Nil contract plays alone and aims to take zero tricks.
-      * <e.g. "I'll play Nil">
+    - A Nil contract ranks higher than red suit contracts (♥,♦), but lower than black suit contracts (♣,♠)
+    - The Nil contract declarer commits to taking no tricks. The round is over as soon they take any trick.
     - **Suit Ranks**
-      * **No Trumps**. Cards rank A-10-K-Q-J-9-8-7
+      * No trump suit. Cards rank in Ace-Ten order: A-10-K-Q-J
 
   * **Court**
-    - There are three possible court contracts: Kings, Queens, Jacks. The declarer of a court game plays alone against the other three players. For the purposes of bidding, Jacks outrank Queens, Queens outrank Kings
-      * <e.g. "I'll play Queens">
+    - In a court contract, the trump suit consists of the four Jacks alone. The fail suits follow the standard Ace-10 order. Court contracts outrank all Suit and Nil contracts
+      * <e.g. "I'll play Court">
     - **Suit Ranks**
-      - Trump suit consists entirely of the card named in bidding.
-        * **Trump suit in a Queens contract:** Q♣-Q♠-Q♥-Q♦
-        * **Fail Suits:** A-10-K-J-9-8-7 (♣/♠/♥/♦)
+        * **Trump suit:** J♣-J♠-J♥-J♦
+        * **Fail Suits:** A-10-K-Q (♣/♠/♥/♦)
 
-  * **Alone**
-    - Playing an "Alone" contract is the same as playing a Suit contract but the called suit Ace does not play as the declarer partner. The declarer is not required to bid a suit in which they do not hold an Ace like in the standard Suit contract.
-      * <e.g. "I'll play alone with Spades">
-    - **Suit Ranks**:
-      * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦-A♠-10♠-K♠-Q♠-9♠-8♠-7♠
-      * **Fail Suit:** A-10-K-9-8-7 (♣/♥/♦)
-
-  * **Slams**
-    - A non Nil contract (Suit, Court, or Alone) may be bid as a slam, where the declarer (or or declaring team) aims to take every trick. A Suit Slam outranks Alone, Court Slam outranks Suit Slam, and an Alone Slam outranks every other contract.
-      * <e.g. "I'll play Queens and slam">
-
-  * **Junkyard**
-    - If the bidding goes around the table without any contracts being bid, the round is Junk and is played with Queens and Jacks as Trump and each player partnered with the person sitting across from them. Whichever team takes the least amount of points in tricks wins the game
-    * **Trump Suit:** Q♣-Q♠-Q♥-Q♦-J♣-J♠-J♥-J♦
+  * **Leasters**
+    - If the bidding goes around the table without any contracts being bid, a Leasters round is player with Jacks alone as trumps. The player who takes the most points pays out to the player who took the least
+    * **Trump Suit:** J♣-J♠-J♥-J♦
     * **Fail Suits:** A-10-K-9-8-7 (♣/♠/♥/♦)
 
 ## Scoring
-At the end of the round, points collected in tricks are added up for each team. The declaring team scores a bonus if they take 90 points or more. The opposing team, therefore, wants to take at least 31 points to prevent this. This is known as "making brush".
+At the end of the round, points collected in tricks are added up for each team. A contract is made if the declaring player takes at least 61 points in tricks.
+Each contract has a base point value that the loser pays out to the winner. The base values are as follows:
 
-For Solo contracts, the three players opposing the declarer collectively add their trick points. The following table outlines the game points awarded for each contract (note that slam bonuses are not applied unless the contract was actually bid as a slam)
-_____________________________________________________________________
-|   Contract    | Declarer Score | No Brush | Slam | Opponent Score |
-|:-------------:|:--------------:|:--------:|:----:|:--------------:|
-| Suit          |       4        |    6     |  12  |       0        |
-| Nil           |       6        |    -     |  -   |      -2        |
-| Court         |       6        |    9     |  18  |       0        |
-| Alone         |       8        |   12     |  24  |       0        |
-| Junk          |       4        |    -     |  -   |      -4        |
-_____________________________________________________________________
+  * Suit: 1 point
+  * Nil: 2 points
+  * Court: 2 points
+  * Leasters: 1 point*
 
-Games are played to 30 points.
+If the winning side takes at least 90 points, 1 point is added to the base value. If the winning side takes all tricks, 2 points are added to the base value. An additional point may be added if the player chooses not to exchange cards with the kitty.
+
+If the declarer does not make their contract, they pay out the base points to both defending players. An additional point is paid out if the declarer fails to make 31 points.
+
+  * *Example 1*: Declarer of a suit contract scores 66 points. Each defending player loses 1 point, the declarer gains 2
+  * *Example 2*: Declarer of a court contract scores 29 points. Each defending player gains 3 points, the declarer loses 6
+  * *Example 3*: Declarer of a suit contract takes all tricks. Each defending player loses 3 points, the declarer gains 6
+  * *Leasters*: In leasters, the player who scores the most points pays the player who scores the least. The middle player gains and loses nothing.
+
+Games are played over the course of 15 rounds, or any other agreed upon number.
+
+## Rules for 4-player game
+
+Deal 4 cards to each player and 4 to the kitty. Bidding follows the same conventions as a 3 player game, however suit contracts are played with the holders of the two black Jacks acting as a temporary partnership. If a player holds both black Jacks, they must announce it, and the player holding the Queen of the called suit is their partner. If a player holds both Jacks and the Queen of the called suit, they must play alone against the other three players.
+
+Court and Nil contracts are played alone vs the other 3 players.
+
+The declarer picks up the kitty they do not add it to their hand, but instead may exchange one card in their hand with the kitty, though not required. They then pass the kity to the left, and each other player in turn may exchange one card. After the other three players exchange, the dealer may choose to exchange one more card with the kitty, and play begins.
+
+
